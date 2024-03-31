@@ -4,7 +4,7 @@ A small shader-lib package providing smooth (frame-blended) playback functions f
 
 ShaderGraph supported, sub-graph included.
 
-Package is marked as compatible with Unity `2022.3.8f1` and URP `14.0.8`, but it probably works with **MUCH** lower versions. Though, it's not tested (try by yourself, but you'll need to edit versions in `package.json`).
+Package is marked as compatible with Unity `2022.3.8f1` / URP `14.0.8` and up, but it probably works with **MUCH** lower versions. Though, it's not tested (try by yourself, but you'll need to edit versions in `package.json`).
 
 ## INSTALLATION
 
