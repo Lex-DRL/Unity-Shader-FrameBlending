@@ -1,0 +1,32 @@
+{
+	"name": "com.darlog.frame-blending",
+	"version": "0.0.1",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:Lex-DRL/Unity-Shader-FrameBlending.git"
+	},
+	"displayName": "Darlog - Shaders - Frame Blending",
+	"description": "Shader library providing frame-blending functions for sprite-sheets.\nCompatible with ShaderGraph.",
+	"unity": "2022.3",
+	"unityRelease": "8f1",
+	"dependencies": {
+		"com.unity.render-pipelines.core": "14.0.8",
+		"com.unity.shadergraph": "14.0.8"
+	},
+	"keywords": [
+		"Shader",
+		"Lex",
+		"Darlog",
+		"Frame Blending",
+		"Sprite Sheet",
+		"Texture Sheet",
+		"Particles",
+		"Shader Particles"
+	],
+	"author": {
+		"name": "Lex Darlog",
+		"email": "",
+		"url": "https://github.com/Lex-DRL"
+	},
+	"type": "tool"
+}
