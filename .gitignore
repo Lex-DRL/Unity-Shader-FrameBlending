@@ -1,0 +1,138 @@
+# Organized+extended by Lex-DRL: https://github.com/Lex-DRL/git-template-gamedev
+
+# OS-generated
+# ------------
+.DS_Store*
+[Tt]humbs.db
+[Dd]esktop.ini
+
+# Temp files:
+*.tmp
+*.temp
+
+# Programming - general
+*.log
+
+
+# =========================================================================== #
+# 	IDEs
+# =========================================================================== #
+
+# JetBrains PyCharm / Rider
+.idea/
+
+
+# =========================================================================== #
+# 	DRL's CG-related
+# =========================================================================== #
+# --- Auto-Backups:
+# Nuke:
+*.nk~
+*.nk.autosave
+
+# Houdini:
+**/backup/*.[Hh][Ii][Pp]
+**/backup/*.[Hh][Dd][Aa]
+**/backup/*.[Oo][Tt][Ll]
+
+# Maya:
+[Ii]ncremental[Ss]ave/
+.[Mm]aya[Ss]watches/
+
+# --- FBX included files:
+*.fbm/
+
+
+# =========================================================================== #
+# 	Unity-related
+# =========================================================================== #
+# src: https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ibrary/
+/[Ll]ogs/
+/[Oo]bj/
+/[Tt]emp/
+/[Uu]ser[Ss]ettings/
+
+# Builds
+*.aab
+*.apk
+*.app
+*.unitypackage
+
+# MemoryCaptures can get excessive in size.
+# They also could contain extremely sensitive data
+/[Mm]emory[Cc]aptures/
+
+# Recordings can get excessive in size
+/[Rr]ecordings/
+
+# Crash reports
+sysinfo.txt
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Uncomment this line if you wish to ignore the asset store tools plugin
+# /[Aa]ssets/AssetStoreTools*
+
+# Re-include previously excluded files from these dirs:
+# !/[Aa]ssets/**/*
+# !/[Pp]roject[Ss]ettings/**/*
+
+# backup files
+*.[Bb]ack[Uu]p
+*.[Bb]ack[Uu]p.meta
+*[Bb]ack[Uu]p*.asset
+*[Bb]ack[Uu]p*.asset.meta
+
+# JetBrains Rider
+.idea/
+.idea.meta
+[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains*/
+[Aa]ssets/[Pp]lugins/[Ee]ditor/[Jj]et[Bb]rains*.meta
+
+# Gradle cache directory
+.gradle/
+
+# Visual Studio
+[Ee]xported[Oo]bj/
+.consulo/
+.vs/
+.vscode/
+*.booproj
+*.booproj.meta
+*.csproj
+*.csproj.meta
+*.mdb
+*.mdb.meta
+*.opendb
+*.opendb.meta
+*.pdb
+*.pdb.meta
+*.pidb
+*.pidb.meta
+*.sln
+*.sln.meta
+*.suo
+*.suo.meta
+*.svd
+*.svd.meta
+*.tmp
+*.tmp.meta
+*.unityproj
+*.unityproj.meta
+*.user
+*.user.meta
+*.userprefs
+*.userprefs.meta
+*.[Vv][Cc].db
+*.[Vv][Cc].db.meta
+
+
+# =========================================================================== #
+# 	Repo-specific
+# =========================================================================== #
+# add here
