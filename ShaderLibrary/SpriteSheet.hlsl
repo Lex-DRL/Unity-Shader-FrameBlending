@@ -10,7 +10,7 @@
 
 
 // ========================================================
-// Internal functions
+// Utility functions
 
 // ------------------------------------
 // For given frame-ID(s), calculates the actual sprite-sheet UVs.
@@ -101,7 +101,7 @@ float4 GetSpriteSheetUVs_float(float2 uv, float2 frameIDs, float2 sheetCells, bo
 // In a couple of years, when android 8/9 devices are FULLY deprecated, it might be beneficial to
 // do the exact opposite: _enforce_ ints or even uints to help a compiler.
 
-void Spritesheet_FrameBlending_Looping_half(
+void SpriteSheet_FrameBlending_Looping_half(
 	half2 uv, half2 sheetCells, half progress, bool topToBottom,
 	out half4 sheetUVs, out half blend
 )
@@ -147,7 +147,7 @@ void Spritesheet_FrameBlending_Looping_half(
 	sheetUVs = GetSpriteSheetUVs_half(uv, frameIDs, sheetCells, topToBottom);
 }
 // Float overload:
-void Spritesheet_FrameBlending_Looping_float(
+void SpriteSheet_FrameBlending_Looping_float(
 	float2 uv, float2 sheetCells, float progress, bool topToBottom,
 	out float4 sheetUVs, out float blend
 )

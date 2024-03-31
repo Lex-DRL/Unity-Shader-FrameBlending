@@ -292,10 +292,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -139.99998474121095,
-            "y": -35.200008392333987,
-            "width": 118.39999389648438,
-            "height": 100.79997253417969
+            "x": -139.1999969482422,
+            "y": -35.20000076293945,
+            "width": 118.39998626708985,
+            "height": 100.79998779296875
         }
     },
     "m_Slots": [
@@ -662,7 +662,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Spritesheet_FrameBlending_Looping (Custom Function)",
+    "m_Name": "SpriteSheet_FrameBlending_Looping (Custom Function)",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -705,7 +705,7 @@
         "m_SerializableColors": []
     },
     "m_SourceType": 0,
-    "m_FunctionName": "Spritesheet_FrameBlending_Looping",
+    "m_FunctionName": "SpriteSheet_FrameBlending_Looping",
     "m_FunctionSource": "1c2ad13e6ab62b9409c424db035aab50",
     "m_FunctionBody": "Enter function body here..."
 }
