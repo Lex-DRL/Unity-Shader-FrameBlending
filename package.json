@@ -32,7 +32,7 @@
 	"samples": [
 		{
 			"displayName": "Example ShaderGraph (URP)",
-			"description": "A complete barebones shader utilizing FrameBlending. Please note that it's essential to explicitly turn 'blend' interpolator into vector4 - before passing it to lerp.",
+			"description": "A complete barebones shader utilizing FrameBlending.\n⚠ PLEASE NOTE ⚠ that it's essential to explicitly turn 'blend' interpolator into vector4 - before passing it to lerp.",
 			"path": "Samples~/Example ShaderGraph (URP)"
 		}
 	]
