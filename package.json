@@ -1,12 +1,13 @@
 {
 	"name": "com.darlog.frame-blending",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:Lex-DRL/Unity-Shader-FrameBlending.git"
 	},
 	"displayName": "Darlog - Shaders - Frame Blending",
 	"description": "Shader library providing frame-blending functions for sprite-sheets.\nCompatible with ShaderGraph.",
+	"type": "tool",
 	"unity": "2022.3",
 	"unityRelease": "8f1",
 	"dependencies": {
@@ -28,5 +29,11 @@
 		"email": "",
 		"url": "https://github.com/Lex-DRL"
 	},
-	"type": "tool"
+	"samples": [
+		{
+			"displayName": "Example ShaderGraph (URP)",
+			"description": "A complete barebones shader utilizing FrameBlending. Please note that it's essential to explicitly turn 'blend' interpolator into vector4 - before passing it to lerp.",
+			"path": "Samples~/Example ShaderGraph (URP)"
+		}
+	]
 }
