@@ -124,10 +124,11 @@ void SpriteSheet_FrameBlending_Looping_half(
 
 	// Now, loop the frame-ID-progress while simultaneously turning it into [0, 11] range.
 	// So, 12 => 0.
-	// To fight potential float-rounding errs, let's shift the value up by 0.5:
-	frameIDs += 0.5;
+	// To fight potential float-rounding errors (and never have '-0.0...01' prior to modulo),
+	// let's shift the value up by 0.5:
+	frameIDs += 0.5h;
 	frameIDs = frameIDs % (half2)totalSize;
-	frameIDs -= 0.5; // ... and shift it back to an int value after looping.
+	frameIDs -= 0.5h; // ... and shift it back to an int value after looping.
 
 	// As a nice side effect of this ^ trickery, now we can pass scaled time as progress,
 	// though it's not advised due to cumulative loss of float precision.
